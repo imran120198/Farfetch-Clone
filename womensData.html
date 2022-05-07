@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/mensData.css">
+</head>
+<body>
+    <!-- importing nav-bar  -->
+    <div id="nab"></div>
+
+    <div id="container">
+      <div>
+        <div id="box"></div>
+      </div>
+      
+    </div>
+    
+
+    
+
+    <!-- ----- importing Footer  -> ----- -->
+    <div id="foot"></div>
+</body>
+
+<script type="module" src="./script/navBarIteam.js"></script>
+<script type="module" src="./script/footerIteam.js"></script>
+
+
+<script>
+  var womensData = [
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/34/45/34/18344534_39386867_600.jpg",
+        name: "New Season",
+        brand: "Stella McCartney",
+        description: "graphic print short-sleeve shirt",
+        price: 1015,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/78/81/67/17788167_39325408_600.jpg",
+        name: "New Season",
+        brand: "Birkenstock",
+        description: "x Manolo Blahnik Boston clogs",
+        price: 944,
+      },
+      
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/33/79/88/18337988_39244946_600.jpg",
+        name: "New Season",
+        brand: "Ralph Lauren Collection",
+        description: "Welington shoulder bag",
+        price: 1590,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/78/91/17/17789117_39400039_600.jpg",
+        name: "New Season",
+        brand: "Stella McCartney",
+        description: "x Disney Fantasia denim shorts",
+        price: 716,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/35/98/63/18359863_39334892_600.jpg",
+        name: "New Season",
+        brand: "Marni",
+        description: "medium Trunk Soft crossbody bag",
+        price: 2318,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/39/60/00/18396000_39410676_600.jpg",
+        name: "New Season",
+        brand: "Off-White",
+        description: "floral-print sleeveless dress",
+        price: 833,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/33/20/92/18332092_39357632_600.jpg",
+        name: "New Season",
+        brand: "Alexander McQueen",
+        description: "crystal-embellished chunky sneakers",
+        price: 1549,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/37/84/42/18378442_39411723_600.jpg",
+        name: "New Season",
+        brand: "Jacquemus",
+        description: "contrast-stitch detail denim jacket",
+        price: 903,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/35/22/24/18352224_39283759_600.jpg",
+        name: "New Season",
+        brand: "Isabel Marant",
+        description: "Olga wide-leg trousers",
+        price: 944,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/36/42/73/18364273_4a092326-c65e-421f-a92e-db89796f5846_600.jpg",
+        name: "New Season",
+        brand: "Maison Margiela",
+        description: "lace-trim silk slip dress",
+        price: 1505,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/49/41/86/17494186_39469445_600.jpg",
+        name: "New Season",
+        brand: "Alexander Wang",
+        description: "cropped fringed jacket",
+        price: 2275,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/78/40/28/17784028_39383690_600.jpg",
+        name: "New Season",
+        brand: "Dolce & Gabbana",
+        description: "sequined leopard-pattern trousers",
+        price: 1989,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/30/67/62/18306762_39443876_600.jpg",
+        name: "New Season",
+        brand: "Simon Miller",
+        description: "slip-on mules",
+        price: 360,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/35/19/04/18351904_39420653_600.jpg",
+        name: "New Season",
+        brand: "Missoni",
+        description: "zigzag pattern sleeveless dress",
+        price: 2650,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/35/12/44/18351244_39418449_600.jpg",
+        name: "New Season",
+        brand: "Casadei",
+        description: "buckled 160mm platform sandals",
+        price: 1545,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/11/82/07/17118207_38125614_600.jpg",
+        name: "New Season",
+        brand: "Chloé",
+        description: "high-waisted flared midi leather skirt",
+        price: 9600,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/34/71/88/18347188_39329403_600.jpg",
+        name: "New Season",
+        brand: "Alexander McQueen",
+        description: "cat eye-frame sunglasses",
+        price: 668,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/40/80/53/18408053_39489042_600.jpg",
+        name: "New Season",
+        brand: "The Attico",
+        description: "zebra-print cropped bikini",
+        price: 636,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/37/08/47/18370847_39380958_600.jpg",
+        name: "New Season",
+        brand: "Valentino Garavani",
+        description: "Roman Stud flatform sandals",
+        price: 1274,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/86/30/59/17863059_39429770_600.jpg",
+        name: "New Season",
+        brand: "Cecilie Bahnsen",
+        description: "open back sheer knitted top",
+        price: 1757,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/36/01/51/18360151_39340701_600.jpg",
+        name: "New Season",
+        brand: "Benedetta Bruzziches",
+        description: "Favorita rhinestone tote",
+        price: 1632,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/70/25/39/17702539_39401615_600.jpg",
+        name: "New Season",
+        brand: "Alessandra Rich",
+        description: "Laminate high-shine miniskirt",
+        price: 496,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/31/36/80/18313680_1f56f179-347f-44da-93a2-bc313fd8a948_600.jpg",
+        name: "New Season",
+        brand: "Valentino Garavani",
+        description: "One Stud woven shoulder bag",
+        price:  2967,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/34/59/85/18345985_39398420_600.jpg",
+        name: "New Season",
+        brand: "ETRO",
+        description: "floral-print halterneck dress",
+        price: 5591,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/33/72/26/18337226_39446654_600.jpg",
+        name: "New Season",
+        brand: "Valentino Garavani",
+        description: "Roman Stud 65mm leather mules",
+        price: 892,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/24/84/50/17248450_39481389_600.jpg",
+        name: "New Season",
+        brand: "Jacquemus",
+        description: "Tropea bikini top",
+        price: 193,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/38/15/36/18381536_39414390_600.jpg",
+        name: "New Season",
+        brand: "Chloé",
+        description: "open toe slides",
+        price: 1417,
+      },
+    ];
+
+    
+   let box = document.getElementById("box");
+
+   function append(data){
+     womensData.forEach(function(elem){
+       let div = document.createElement("div")
+
+       let image = document.createElement("img");
+       image.src = elem.image;
+
+       let name = document.createElement("h4");
+       name.innerText = elem.name;
+
+       let brand = document.createElement("h3");
+       brand.innerText = elem.brand;
+
+       let description = document.createElement("h4")
+       description.innerText = elem.description;
+
+       let price = document.createElement("h3");
+       price.innerText = "$" + elem.price;
+
+       let btn = document.createElement("button");
+       btn.textContent = "Add To Cart";
+       btn.id = "addtocart"
+       btn.addEventListener("click",function(){
+          let arr = JSON.parse(localStorage.getItem("cartItem")) || [];
+          arr.push(elem)
+          localStorage.setItem("cartItem", JSON.stringify(arr));
+          window.location.href = "cart.html";
+
+       })
+
+       div.append(image,name,brand,description,price,btn);
+       box.append(div)
+     })
+   }
+
+   append(womensData)
+
+
+   
+
+</script>
+</html>

@@ -1,0 +1,36 @@
+#container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 270px;
+}
+
+#container > div{
+    display: flex;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(3,50%);
+    grid-template-rows: repeat(12,450px);
+    grid-gap: 3%;
+}
+
+#box > div{
+    text-align: center;
+    margin-left: 30px;
+    
+}
+
+#box > div > img{
+    height: 300px;
+    width: 100%;
+}
+
+#addtocart{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}

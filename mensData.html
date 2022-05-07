@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/mensData.css">
+</head>
+<body>
+    <!-- importing nav-bar  -->
+    <div id="nab"></div>
+
+    <div id="container">
+      <div>
+        <div id="box"></div>
+      </div>
+      
+    </div>
+    
+
+    
+
+    <!-- ----- importing Footer  -> ----- -->
+    <div id="foot"></div>
+</body>
+
+<script type="module" src="./script/navBarIteam.js"></script>
+<script type="module" src="./script/footerIteam.js"></script>
+
+
+<script>
+  var mensData = [
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/59/38/88/17593888_39023937_600.jpg",
+        name: "New Season",
+        brand: "Off-White",
+        description: "Single Arrow track jacket",
+        price: 774,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/94/19/33/17941933_39467039_600.jpg",
+        name: "New Season",
+        brand: "Dsquard2",
+        description: "One Planet slogan-print totet",
+        price: 740,
+      },
+      
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/38/70/30/18387030_39460842_600.jpg",
+        name: "New Season",
+        brand: "Stone Island",
+        description: "elasticated-waist multi-pocket Bermuda shorts",
+        price: 566,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/38/02/22/18380222_39464629_600.jpg",
+        name: "New Season",
+        brand: "Prada",
+        description: "Re-Nylon low-top sneakers",
+        price: 1274,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/36/38/24/18363824_5fb04271-4b59-42e2-b61c-53eaf77a7b53_600.jpg",
+        name: "New Season",
+        brand: "Valentino",
+        description: "VLTN logo-embroidered T-shirt",
+        price: 873,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/61/69/48/17616948_39443141_600.jpg",
+        name: "New Season",
+        brand: "TOM FORD",
+        description: "logo-patch clutch bag",
+        price: 1770,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/37/28/22/18372822_39466786_600.jpg",
+        name: "New Season",
+        brand: "Burberry",
+        description: "logo embossed track shorts",
+        price: 982,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/22/86/85/18228685_39458090_600.jpg",
+        name: "New Season",
+        brand: "Isabel Marant",
+        description: "denim-style baseball-cap",
+        price: 260,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/75/76/06/17757606_39475547_600.jpg",
+        name: "New Season",
+        brand: "Maison Margiela",
+        description: "logo print hoodie",
+        price: 929,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/57/29/44/17572944_38917107_600.jpg",
+        name: "New Season",
+        brand: "Palm Angels",
+        description: "Rainbow low-top sneakers",
+        price: 665,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/33/43/21/18334321_39479830_600.jpg",
+        name: "New Season",
+        brand: "Casablanca",
+        description: "striped logo-patch track jacket",
+        price: 881,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/96/75/78/17967578_39453824_600.jpg",
+        name: "New Season",
+        brand: "Comme Des Garçons Homme",
+        description: "logo-print shoulder bag",
+        price: 753,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/21/80/21/18218021_39528483_600.jpg",
+        name: "New Season",
+        brand: "Ricks Owens",
+        description: "drop-crotch cotton shorts",
+        price: 843,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/37/28/52/18372852_39411533_600.jpg",
+        name: "New Season",
+        brand: "Dsquared2",
+        description: "logo-print detail baseball cap",
+        price: 285,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/39/36/06/18393606_39444926_600.jpg",
+        name: "New Season",
+        brand: "Prada",
+        description: "logo-print detail baseball cap",
+        price: 2700,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/38/53/44/18385344_39453663_600.jpg",
+        name: "New Season",
+        brand: "Stone Island",
+        description: "logo-print belt",
+        price: 263,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/57/15/16/17571516_39045700_600.jpg",
+        name: "New Season",
+        brand: "Palm Angels",
+        description: "Lagoon-print short-sleeved shirt",
+        price: 730,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/59/50/62/17595062_39163783_600.jpg",
+        name: "New Season",
+        brand: "Off-White",
+        description: "monogram-print duffle bag",
+        price: 2204,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/42/64/79/17426479_39478595_600.jpg",
+        name: "New Season",
+        brand: "Acne Studios",
+        description: "wide-leg denim shorts",
+        price: 375,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/33/76/90/18337690_39446643_600.jpg",
+        name: "New Season",
+        brand: "Jacquemus",
+        description: "Le Bob logo patch bucket hat",
+        price: 113,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/18/52/10/17185210_39249362_600.jpg",
+        name: "New Season",
+        brand: "Heron Preston",
+        description: "logo-patch slip-on slides",
+        price: 267,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/32/16/45/18321645_39501007_600.jpg",
+        name: "New Season",
+        brand: "Parada",
+        description: "multi-print cotton shirt",
+        price: 1630,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/96/17/62/17961762_39478187_600.jpg",
+        name: "New Season",
+        brand: "Jérôme Dreyfuss",
+        description: "debossed logo tote bag",
+        price:  1113,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/37/28/70/18372870_87e07e3c-0928-41f5-90b1-3e973150da01_600.jpg",
+        name: "New Season",
+        brand: "Dsquared2",
+        description: "low-rise skinny jeans",
+        price: 815,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/22/79/09/18227909_39458392_600.jpg",
+        name: "New Season",
+        brand: "Isabel Marant",
+        description: "embroidered-logo baseball-cap",
+        price: 260,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/17/67/31/87/17673187_39490016_600.jpg",
+        name: "New Season",
+        brand: "Kenzo",
+        description: "Tiger-print cotton T-shirt",
+        price: 183,
+      },
+      {
+        image:"https://cdn-images.farfetch-contents.com/18/38/02/05/18380205_39465380_600.jpg",
+        name: "New Season",
+        brand: "Parada",
+        description: "Polarius low-top sneakers",
+        price: 1342,
+      },
+    ];
+
+    
+   let box = document.getElementById("box");
+
+   function append(data){
+     mensData.forEach(function(elem){
+       let div = document.createElement("div")
+
+       let image = document.createElement("img");
+       image.src = elem.image;
+
+       let name = document.createElement("h4");
+       name.innerText = elem.name;
+
+       let brand = document.createElement("h3");
+       brand.innerText = elem.brand;
+
+       let description = document.createElement("h4")
+       description.innerText = elem.description;
+
+       let price = document.createElement("h3");
+       price.innerText = "$" + elem.price;
+
+       let btn = document.createElement("button");
+       btn.textContent = "Add To Cart";
+       btn.id = "addtocart"
+       btn.addEventListener("click",function(){
+          let arr = JSON.parse(localStorage.getItem("cartItem")) || [];
+          arr.push(elem)
+          localStorage.setItem("cartItem", JSON.stringify(arr));
+          window.location.href = "cart.html";
+
+       })
+
+       div.append(image,name,brand,description,price,btn);
+       box.append(div)
+     })
+   }
+
+   append(mensData)
+
+
+   
+
+</script>
+</html>

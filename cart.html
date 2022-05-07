@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <script
+      src="https://kit.fontawesome.com/498dbb26da.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/cart.css" />
+    <title>Shopping Bag</title>
+  </head>
+  <body>
+    <!-- importing nav-bar  -->
+    <div id="nab"></div>
+
+    <!-- Main- content of Cart - Page  -->
+    <main>
+      <h1>SHOPPING BAG</h1>
+      <div id="container">
+        <div class="itemBags"></div>
+        <div class="totalBag">
+          <h2>Summary</h2>
+          <hr />
+          <div id="total">
+            <br />
+            <h3 id="amount">Total Amount :-</h3>
+            <br>
+            <h3 id="totalPrice">Discount Final Price :-</h3>
+          </div>
+          <br>
+          <hr>
+          <br>
+
+          <!-- div for Promo code apply section  -->
+          <div id="discount">
+            <p>Insert your promo code</p>
+            <form>
+                <input type="text" value="" id="promoinput" placeholder="Enter Promo Code">
+                <input type="submit" id="promoBtn">
+            </form>
+          </div>
+
+          <!-- btn for Checkout page  -->
+          <button onclick="window.location.href='checkout.html'">
+            Go To Checkout <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div id="signupMid">
+      <h2>DOWNLOAD THE FARFETCH APP</h2>
+      <p>Enjoy exclusive content on our app, including personalized product edits as well as our Visual
+          Search tool for iOS. More about the app
+      </p>
+
+      <p>EMAIL ME</p>
+
+      <p>Enter your email and we'll send you a link to download the free app</p>
+      <input type="text" placeholder="Email address"><button>Send</button>
+
+  </div>
+
+    <!-- ----- importing Footer  -> ----- -->
+    <div id="foot"></div>
+  </body>
+  <script src="./script/cart.js"></script>
+</html>
+<script type="module" src="./script/navBarIteam.js"></script>
+<script type="module" src="./script/footerIteam.js"></script>
+<script type="module" src="./script/signFormIteam.js"></script>

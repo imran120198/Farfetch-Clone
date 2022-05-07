@@ -1,0 +1,270 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    
+    margin: auto;
+}
+
+#nav{
+    width: 100%;
+    color: red;
+    background-color:#e6e6e6;
+    text-align: center;
+    height: 42px;
+    padding: 1px;
+    font-size: 14px;
+    font-family: Verdana, Tahoma, sans-serif;
+    cursor: pointer;
+   
+}
+
+#uppernav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    /* position: fixed; */
+    /* background-color: white; */
+}
+
+#uppernav > div:nth-child(1){
+    width: 300px;
+    display: flex;
+   justify-content: space-evenly;
+}
+#lowernav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    /* position: fixed;
+    background-color: white; */
+}
+#lowernav > div:nth-child(1){
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#search{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 0.3px solid grey;
+    padding: 15px;
+    font-size: 20px;
+}
+#bodydiv {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 650px);
+    grid-gap: 40px ;
+   
+    
+}
+#bodydiv > div{
+    /* border: 1px solid red; */
+   /* width: 80%; */
+    text-align: center;
+
+}
+img{
+     height: 100%;
+     width: 100%; 
+}
+#bodydiv>div:nth-child(1){
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: space-evenly; */
+    
+}
+
+#bodydiv>div:nth-child(3){
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: space-evenly; */
+    
+}
+
+#bodydiv>div:nth-child(3) > img{
+    width: 100%;
+    height: 550px;
+    
+}
+
+button{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+}
+h1{
+    font-size: 43px;
+    font-family:  Verdana, Tahoma, sans-serif;
+}
+#bodydiv >  p{
+    font-size: 20px;
+    padding: 15px;
+}
+#signupbar {
+    margin-top:40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#signupbar > div {
+margin-left: 25px;
+}
+#container  {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    height: 400px; 
+    justify-content: space-around;
+}
+img{
+    width: 90%;
+    height: 100%;
+}
+#middiv{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 170px;
+}
+#container1{
+    margin-top: 270px;
+    /* border: 1px solid red; */
+}
+#container1 > div:nth-child(1){
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+#container2{
+   /* border: 1px solid red; */
+   width: 80%;
+   display: grid;
+   grid-template-columns: repeat(3, 32%);
+   grid-gap: 3%;
+   margin: auto;
+   /*margin-top: 40px; */
+}
+#container2 > div{
+    text-align: justify;
+}
+#container2 > div >img{
+    height: 600px;
+    width: 100%;
+}
+#middiv1{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+#container3{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    height: 400px; 
+    justify-content: space-around;
+}
+
+#container3 > img{
+    width: 100%;
+    height: 100%;
+}
+
+#container5{
+    margin-top: 270px;
+    /* border: 1px solid red; */
+}
+#container5 > div:nth-child(1){
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+#container6{
+   /* border: 1px solid red; */
+   width: 80%;
+   display: grid;
+   grid-template-columns: repeat(3, 32%);
+   grid-gap: 3%;
+   margin: auto;
+   /*margin-top: 40px; */
+}
+#container6 > div{
+    text-align: justify;
+}
+#container6 > div >img{
+    height: 600px;
+    width: 100%;
+}
+
+
+#signupMid{
+ /* border: 1px solid red; */
+ height: 300px;
+ width: 50%;
+ text-align: justify;
+ margin: auto;
+ margin-top: 100px;
+}
+
+#signupMid > p {
+    font-size: 15px;
+}
+
+#signupMid > input{
+    height: 30px;
+    width: 200px;
+}
+
+#signupMid > button{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+#container4{
+    background-color: #222222;
+    color: white;
+    font-size: 15px;
+}
+#helppage{  
+    height: 500px;
+    /* margin-top: 0px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#terms{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
